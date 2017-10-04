@@ -67,7 +67,6 @@ h1 { margin: 1rem 0 0; }
 	border: 0;
 }
 
-
 html, body {
     height: 100%;
     font-family: sans-serif;
@@ -595,9 +594,12 @@ i {
 }
 
 #fw-container {
-    display: -webkit-flex; /* Safari */
-    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
-    display: flex;   
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+	-webkit-flex-wrap: wrap; /* Safari 6.1+ */   
     flex-wrap: wrap;
 	max-width: 700px;
 	margin-top: 25px;
