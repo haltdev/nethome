@@ -13,21 +13,30 @@ h1 { margin: 1rem 0 0; }
     height: 50%;
     padding: 0;
     margin: 0;
-    display: -webkit-box;
+	display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-    display: flex;
+    display: flex;   
+	-webkit-flex-wrap: wrap; /* Safari 6.1+ */
     align-items: center;
     justify-content: center;
 }
 .flexbox .stretch {
-	flex: 1 0 auto;
+	-webkit-box-flex: 1 0 auto;
+	-moz-box-flex: 1 0 auto;
+	-webkit-flex: 1 0 auto;
+	-ms-flex: 1 0 auto;
+  	flex: 1 0 auto;
 	max-width: 700px;
 	background-color: rgba(21, 21, 21, 0.70);
 	height: 48px;
 }
 .flexbox div input {
+	-webkit-box-flex: 1 0 100px;
+	-moz-box-flex: 1 0 100px;
+	-webkit-flex: 1 0 100px;
+	-ms-flex: 1 0 100px;
 	flex: 1 0 100px;
 	width: 70%;
 	border: 0;
@@ -38,6 +47,10 @@ h1 { margin: 1rem 0 0; }
 	background-color: transparent;
 }
 .flexbox div select {
+	-webkit-box-flex: 0 0 auto;
+	-moz-box-flex: 0 0 auto;
+	-webkit-flex: 0 0 auto;
+	-ms-flex: 0 0 auto;
 	flex: 0 0 auto;
 	border: 0;
 	height: 48px;
@@ -582,7 +595,10 @@ i {
 }
 
 #fw-container {
-	display: flex;
+    display: -webkit-flex; /* Safari */
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    display: flex;   
+    flex-wrap: wrap;
 	max-width: 700px;
 	margin-top: 25px;
     height: 55px;
