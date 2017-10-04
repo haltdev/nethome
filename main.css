@@ -395,6 +395,18 @@ i {
     padding-right: 25px;
 }
 
+#fw-container {
+    max-width: 700px;
+    margin-top: 25px;
+    height: 55px;
+    padding: -10px;
+    text-align: left;
+    font-family: 'Noto Sans', Helvetica, sans-serif;
+    /* border: 1px solid #0E4FAE; */
+    border-radius: 0px;
+    box-sizing: border-box;
+    background-color: rgba(21, 21, 21, 0.70);
+}
 
 /* This is the styling for the Feed Item content in the body container*/
 
