@@ -10,18 +10,18 @@ h1 { margin: 1rem 0 0; }
 /* Flexbox
 **************************************************************************/
 .flexbox {
-    height: 50%;
-    padding: 0;
-    margin: 0;
+	height: 50%;
+	padding: 0;
+	margin: 0;
 	display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
-    display: -moz-box; /* OLD: Firefox (buggy) */
-    display: -ms-flexbox; /* MID: IE 10 */
-    display: -webkit-flex; /* NEW, Chrome 21–28, Safari 6.1+ */
-    display: flex; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+	display: -moz-box; /* OLD: Firefox (buggy) */
+	display: -ms-flexbox; /* MID: IE 10 */
+	display: -webkit-flex; /* NEW, Chrome 21–28, Safari 6.1+ */
+	display: flex; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
 	-webkit-box-align: center; -moz-box-align: center; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
 	-ms-flex-align: center; /* MID: IE 10 */
 	-webkit-align-items: center; /* NEW, Chrome 21–28, Safari 6.1+ */
-    align-items: center; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
+	align-items: center; /* NEW: IE11, Chrome 29+, Opera 12.1+, Firefox 22+ */
 	-webkit-box-pack: center; -moz-box-pack: center; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */
 	-ms-flex-pack: center; /* MID: IE 10 */
 	-webkit-justify-content: center; /* NEW, Chrome 21–28, Safari 6.1+ */
