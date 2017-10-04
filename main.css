@@ -148,6 +148,14 @@ textarea {
     margin: 0;
 }
 
+textarea:focus, input:focus{
+	outline: none;
+	outline-style: none;
+}
+
+*:focus {
+	outline: none;
+}
 button {
     overflow: visible;
 }
