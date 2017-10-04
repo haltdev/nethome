@@ -1,36 +1,3 @@
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
-/* Reset
-**************************************************************************/
-* { box-sizing: border-box; margin: 0; padding: 0; }
-body { margin: 1rem; }
-h1 { margin: 1rem 0 0; }
-
-
-a {
-    background-color: transparent;
-}
-
-a:active,
-a:hover {
-    outline: 10;
-}
-
-textarea {
-    color: inherit;
-    font: inherit;
-    margin: 0;
-}
-
-textarea:focus, input:focus{
-	outline: none;
-	outline-style: none;
-}
-
-*:focus {
-	outline: none;
-}
-
 #fw-feed-items .fw-feed-item-title {
     margin: 0;
     padding-left: 15px;
