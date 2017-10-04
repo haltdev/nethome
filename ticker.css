@@ -1,3 +1,6 @@
+body {
+    margin: 0;
+}
 #fw-feed-items .fw-feed-item-title {
     margin: 0;
     padding-left: 15px;
@@ -20,4 +23,5 @@
 #fw-feed-items .fw-feed-item {
     margin: 0;
     clear: both;
+    padding: 0;
 }
