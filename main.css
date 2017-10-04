@@ -64,6 +64,11 @@ h1 {
     float: right;
 }
 
+.flexbox option {
+	background-color: rgba(21, 21, 21, 0.70);
+	border: 0;
+}
+
 html,
 body {
     height: 100%;
